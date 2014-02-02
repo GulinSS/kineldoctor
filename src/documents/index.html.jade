@@ -1,23 +1,32 @@
 --- yaml
 layout: 'default'
-title: 'Home'
+title: 'Главная'
 ---
 
-// Main hero unit for a primary marketing message or call to action.
+.page-header
+  h1 Твой доктор, г. Кинель <small>поликлиника</small>
+
 .jumbotron
-  h1 Welcome to your new site!
   p: :markdown
-    We've copied over the [Twitter Bootstrap Skeleton](https://github.com/docpad/twitter-bootstrap.docpad) for you already, which is what you're currently viewing.
-    <br>
-    Step through the guide below and we'll walk you through the process of working with your first docpad website :-)
+    Широкий спектр медицинских услуг высокого качества по доступной цене в городе Кинель. Мы совместили все лучшее, чтобы радовать Вас результатом оказанной помощи.
 
 // Example row of columns.
 .row
   .col-md-6
-    h2 Docpad
-    p DocPad takes that good ol' simple approach of writing files and wraps it with the best modern innovations, providing an awesome intuitive, liberating and empowering solution for HTML5 web development.</p>
-    p: a.btn.btn-default(href="https://github.com/bevry/docpad") Visit Website
+    h2 Контакты
+    p.lead(style='white-space:pre')
+      | <strong>Телефон</strong>
+      | Местный: 2-13-13
+      | Международный: +7 846 6321313
+      | 
+      | <strong>Юридический адрес</strong>
+      | Он и фактический
+      | 446430, Россия
+      | Самарская область, г. Кинель
+      | ул. Мира, дом 38
+      | ООО "Твой доктор"
   .col-md-6
-    h2 Twitter Bootstrap
-    p Bootstrap is a toolkit from Twitter designed to kickstart development of webapps and sites. It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more.</p>
-    p: a.btn.btn-default(href="http://twitter.github.com/bootstrap/") Visit Website
+    h2 Как добраться
+    p.lead Мы находимся рядом с остановкой <strong>Площадь Мира</strong> маршрута <strong>126 Юг</strong>
+    script(type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=2Sles5mP819ymWvu6fdE_8v3HRK3DtgL&width=345&height=314&id=map")
+    div#map

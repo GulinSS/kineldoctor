@@ -12,7 +12,7 @@ docpadConfig =
     # Specify some site properties
     site:
       # The production url of our website
-      url: "http://website.com"
+      url: "http://kineldoctor.ru"
 
       # Here are some old site urls that you would like to redirect from
       oldUrls: [
@@ -21,7 +21,7 @@ docpadConfig =
       ]
 
       # The default title of our website
-      title: "Your Website"
+      title: "Поликлиника Твой доктор, г. Кинель, 2-13-13"
 
       # The website description (for SEO)
       description: """
@@ -34,13 +34,13 @@ docpadConfig =
         """
 
       # The website author's name
-      author: "Your Name"
+      author: "Гулин Сергей"
 
       # The website author's email
-      email: "your@email.com"
+      email: "gulin.serge@gmail.com"
 
       # Your company's name
-      copyright: "© Your Company 2013"
+      copyright: "© ООО Твой доктор 2013"
 
 
     # Helper Functions
