@@ -21,7 +21,7 @@ pageOrder: 1
 [3]: /docs/license2.jpg
 [4]: /docs/license3.jpg
 [5]: /docs/OGRN.jpg
-[6]: /docs/price.doc
+[6]: /docs/price.docx
 [7]: /docs/passport.doc
 [8]: /docs/291.doc
 [9]: /docs/1006.doc
